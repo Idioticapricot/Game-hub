@@ -1,7 +1,7 @@
 {
   "homepage":"http://idioticapricot.github.io/game-hub",
   "name": "game-hub",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
