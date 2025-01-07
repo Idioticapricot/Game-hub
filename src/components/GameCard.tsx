@@ -2,13 +2,14 @@ import { Game } from "../hooks/useGames";
 import { Card, CardBody, Heading, HStack, Image,  } from "@chakra-ui/react";
 import Platformiconlist from "./Platformiconlist";
 import CriticScore from "./CriticScore";
+import getcropped from "../Services/image.url";
 interface Props {
   game: Game;
 }
 const GameCard = ({ game }: Props) => {
   return (
     <Card borderRadius={10} overflow="hidden" boxShadow="md">
-      <Image src={game.background_image} />
+      <Image src={getcropped (game.background_image)} />
       <CardBody>
         <Heading fontSize="2xl" textAlign="center">
           {game.name}
