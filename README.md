@@ -54,6 +54,6 @@ Ensure you have the following installed:
 Feel free to fork this repository and make your own contributions. Submit a pull request to have your updates reviewed and merged!
 
 ## Acknowledgments 🙌
-- RAWG API for the game data.  
+- RAWG API for the game data. 
 - Chakra UI for the beautiful UI components.  
 - My learning journey and all the resources that helped me get started.
