@@ -6,10 +6,10 @@ interface Props{
 
 const CardContainer = ({children}: Props) => {
   return (
-    <Box width={'300px'} borderRadius={10} overflow="hidden" boxShadow="md">
+    <Box  borderRadius={10} overflow="hidden" boxShadow="md">
         {children}
     </Box>
   )
 }
 
-export default CardContainer
+export default CardContainer 
