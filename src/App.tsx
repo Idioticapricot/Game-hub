@@ -20,7 +20,7 @@ function App() {
         lg: `"nav nav" "aside main"`,
       }}
      templateColumns={{
-      base: "1fr",
+      base: "1fr", 
       lg: "200px 1fr",
      }}
     >
@@ -35,7 +35,7 @@ function App() {
       </Show>
       <GridItem area="main" >
         <HStack paddingX={3} justifyContent={"space-between"}>
-        <Platformselector onSelectPlatform={(platform) => setSelectedPlatform(platform)}/>
+        <Platformselector selectedPlatform={selectedPlatform} onSelectPlatform={(platform) => setSelectedPlatform(platform)}/>
             </HStack>
        
         <GameGrid selectedPlatform={selectedPlatform} selectedGenre={selectedGenre} />
