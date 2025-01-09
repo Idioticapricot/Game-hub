@@ -38,7 +38,7 @@ function App() {
         <Platformselector onSelectPlatform={(platform) => setSelectedPlatform(platform)}/>
             </HStack>
        
-        <GameGrid selectedGenre={selectedGenre}/>
+        <GameGrid selectedPlatform={selectedPlatform} selectedGenre={selectedGenre} />
       </GridItem>
     </Grid>
   );
